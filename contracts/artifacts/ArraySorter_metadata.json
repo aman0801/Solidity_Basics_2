@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "array",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256[]",
+						"name": "_array",
+						"type": "int256[]"
+					}
+				],
+				"name": "setArray",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sortArray",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/4.sol": "ArraySorter"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/4.sol": {
+			"keccak256": "0xe77f5d765db42815a8c678955fd37d2e703b5c6f68e58bfefb9656fec90379b2",
+			"urls": [
+				"bzz-raw://9a50f4b0f4102d3757285751d4ce41e81d3f9de2ee3c1493c1f12379bc134979",
+				"dweb:/ipfs/QmRm8KrdqXXu8cZGMd2DqYKFjNCsowrHDWbuCRufWS7KkU"
+			]
+		}
+	},
+	"version": 1
+}

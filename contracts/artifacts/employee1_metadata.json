@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "enum employee1.Weeks",
+						"name": "_week",
+						"type": "uint8"
+					}
+				],
+				"name": "change",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "check",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "week",
+				"outputs": [
+					{
+						"internalType": "enum employee1.Weeks",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/15.sol": "employee1"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/15.sol": {
+			"keccak256": "0xbb9b4cf4c697983bb34b5880f88326a3eb1eed41104883069f50b496a9a095e8",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://6eb4bca2114d20e0f6a7e9cc50be95384a7fcb585b76ebdda9d0e4d1ae53a7f7",
+				"dweb:/ipfs/QmNMDcgvaXCiNtpZMnUf9dkwYsL5Gyh2nvX6KUqTrYV4FZ"
+			]
+		}
+	},
+	"version": 1
+}

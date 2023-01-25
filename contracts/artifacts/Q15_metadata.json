@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "enum Q15.House",
+						"name": "_types",
+						"type": "uint8"
+					}
+				],
+				"name": "change",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "check",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "types",
+				"outputs": [
+					{
+						"internalType": "enum Q15.House",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/15.sol": "Q15"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/15.sol": {
+			"keccak256": "0x09658292beb9bd6e12b61f1d5101dd04d1c9e3f88d4215792956f3f205496867",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://90091679ed6bdc260c87e69e89a37e3f632803c2e75a73316fda4d20e3a1ccb7",
+				"dweb:/ipfs/QmSYc4brP2o2pJox5HPgZ84RKtYhwsL7TM1i6WpZnjZAEY"
+			]
+		}
+	},
+	"version": 1
+}

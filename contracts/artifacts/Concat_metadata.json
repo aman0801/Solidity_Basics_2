@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "Con",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/1.sol": "Concat"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/1.sol": {
+			"keccak256": "0xc4afd2c049f04e2859322c829e1ad2413d2adf3e405b2144ff434ff6b1648f08",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://025e97c1439b982d715f5b42915516aaead74d78bd472ce5af38e1bfb1a24c96",
+				"dweb:/ipfs/QmWhWkZ4aaKAJdAKF4AFfoe3Hadj6qemrnuvsVtmob23cC"
+			]
+		}
+	},
+	"version": 1
+}
